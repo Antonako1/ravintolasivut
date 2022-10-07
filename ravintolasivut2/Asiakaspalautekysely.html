@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fi-FI">
+    <head>
+        <title>Asiakaspalautekysely - Ravintola Lapintaika</title>
+        <link rel="stylesheet" href="Asiakaspalautekysely.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="kysely">
+            <form>
+                <p class="p"><b>Ravintola Lapintaian <br> asiakaspalautekysely</b></p>
+                <p>Vierailun päivämäärä</p>
+                <input type="date" name="pvm" required>
+                <br>
+                <br>
+                <hr>
+                Millainen oli vierailusi meillä?<br>
+                <input type="radio" name="vier" value="good">Hyvä <br>
+                <input type="radio" name="vier" value="average">Keskiverto <br>
+                <input type="radio" name="vier" value="bad">Huono <br>
+                <br>
+                <textarea name="palaute" placeholder="Miksi vierailusi oli Hyvä/Keskiverto tai Huono?" cols="30" rows="10"></textarea>
+                <hr>
+                <br>
+                <p>Kuinka kauan jouduit odottamaan ruokaa?</p>
+                <input type="time">
+                <p style="font-size: smaller;">tunti-minutti</p>
+                <hr>
+                <input type="text" name="" placeholder="Millaista ruoka oli?" required>
+                <br>
+                <input type="text" name="" placeholder="Oliko ruoka liian kylmää tai kuumaa?" required>
+                <br>
+                <input type="text" name="" placeholder="Oliko ruoan ulkonäkö miellyttävää?" required>
+                <br>
+                <input type="text" name="" placeholder="Oliko ruoan hinta sopiva?" required>
+                <br>
+                <input type="text" name="" placeholder="Oliko asiakaspalvelu miellyttävää?">
+                <hr>
+
+                <p>Jos haluat että ravintola ottaa teihin yhteyttä vastauksiisi liittyen, täytä vielä seuraavat vastauskentät</p>
+                <input type="text" name="nimi" placeholder="Etu- ja sukunimi">
+                <br>
+                <input type="tel" name="tel" placeholder="Puhelinnumero">
+                <br>
+                <input type="email" placeholder="Sähköpostiosoite">
+                <br>
+                <hr>
+                <textarea name="vapaapalaute" placeholder="Voit antaa vielä vapaasti palautetta asioista joita ei kyselyssä kysytty" cols="30" rows="10"></textarea>
+                <hr>
+                <button type="button" onclick="javascripti">Lähetä</button>
+            </form>
+        </div>
+    </body>
+</html>
