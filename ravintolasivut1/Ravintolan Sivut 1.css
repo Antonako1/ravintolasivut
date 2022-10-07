@@ -1,0 +1,57 @@
+body{
+    background-color: #a4d5d9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+#otsikko{
+    background-color: #ffffff;
+    color: rgb(64, 85, 86);
+    border: 3px dotted #b1f7ff;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    width: 33.33%;
+}
+#section1{
+    flex-wrap: wrap;
+    display: flex;
+    width: fit-content;
+}
+
+img{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}
+#taustakuva{
+    margin: auto;
+}
+
+#ruokalista{
+    color: rgb(0, 0, 0);
+    margin: auto;
+    border: 1px solid #715ffd;
+    border-radius: 50px;
+    line-height: 27px;
+}
+
+li{
+    list-style-type: none;
+}
+#yhteystiedot{
+    width: 100%;
+    height: fit-content ;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(114, 122, 160);
+    color: whitesmoke;
+    border-radius: 25px;
+    margin-top: 10%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-right: 0%;
+    position: static;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+}
